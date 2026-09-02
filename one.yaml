@@ -1,6 +1,5 @@
 # → tonkeeper/ton-assets : jettons/$ONE.yaml
-# address заполнить после минта и revoke
-address: "TODO_JETTON_MASTER_ADDRESS"
+address: "EQB4OloeRqCu_7kUjRS-_3rizPaEYsFLNhelYT42nxFn6Dcn"
 name: "ONE"
 symbol: "ONE"
 decimals: 18
