@@ -40,6 +40,9 @@
 > that happens to be on-chain. Buy a fraction if you think it's funny. Don't buy it if
 > you want money.
 
+Ссылку в постах давать **на лендинг**, не на DeDust:
+https://realfactchecknews-eng.github.io/one-token-assets/
+
 Хештеги: #TON #TONcoin #memecoin. Не больше двух на пост.
 Отвечать в тредах крупных TON-аккаунтов — работает лучше, чем постить в пустоту.
 
@@ -47,7 +50,7 @@
 
 ## Telegram
 
-Завести канал под токен (как @bp_ton у BlackPill), иначе людей некуда вести.
+Канал: **@theonlyone_ton** (создан 02.09.2026).
 Закреп — пост 1 плюс ссылка на пул DeDust и адрес контракта.
 
 Куда нести: TON-чаты, мемкоин-чаты, чаты по джеттонам.
