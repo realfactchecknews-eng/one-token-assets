@@ -1,7 +1,6 @@
 # → tonkeeper/ton-assets : jettons/$ONE.yaml
-address: "EQB4OloeRqCu_7kUjRS-_3rizPaEYsFLNhelYT42nxFn6Dcn"
+# Схема минимальная, как в NOT.yaml — лого и описание тянутся из on-chain метаданных.
+symbol: ONE
+address: EQB4OloeRqCu_7kUjRS-_3rizPaEYsFLNhelYT42nxFn6Dcn
 name: "ONE"
-symbol: "ONE"
 decimals: 18
-image: "https://realfactchecknews-eng.github.io/one-token-assets/logo.png"
-description: "Total supply is 1. Not one billion, not one million. One. There is a single ONE in existence and every holder owns a piece of it."
