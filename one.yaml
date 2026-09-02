@@ -1,0 +1,8 @@
+# → tonkeeper/ton-assets : jettons/$ONE.yaml
+# address заполнить после минта и revoke
+address: "TODO_JETTON_MASTER_ADDRESS"
+name: "ONE"
+symbol: "ONE"
+decimals: 18
+image: "https://realfactchecknews-eng.github.io/one-token-assets/logo.png"
+description: "There is one ONE. You are buying a piece of it."
