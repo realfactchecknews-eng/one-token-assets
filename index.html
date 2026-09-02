@@ -1,0 +1,67 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ONE — a token with a supply of 1</title>
+<style>
+  :root{--bg:#000;--fg:#fff;--dim:#888;--line:#222}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--fg);
+       font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+       display:flex;justify-content:center;padding:48px 20px}
+  main{width:100%;max-width:520px}
+  img{width:120px;height:120px;display:block;margin:0 auto 28px}
+  h1{font-size:44px;letter-spacing:-1px;margin:0 0 6px;text-align:center}
+  .sub{color:var(--dim);text-align:center;margin:0 0 40px}
+  h2{font-size:13px;text-transform:uppercase;letter-spacing:1.5px;color:var(--dim);
+     margin:40px 0 12px;font-weight:600}
+  p{margin:0 0 16px}
+  ol{padding-left:20px;margin:0}
+  li{margin-bottom:14px}
+  code{background:#111;border:1px solid var(--line);border-radius:6px;padding:2px 6px;
+       font-size:13px;word-break:break-all}
+  .addr{display:block;background:#111;border:1px solid var(--line);border-radius:10px;
+        padding:14px;font-size:12px;word-break:break-all;margin-bottom:10px}
+  button,a.btn{display:block;width:100%;padding:15px;border-radius:10px;font-size:16px;
+       font-weight:600;text-align:center;text-decoration:none;cursor:pointer;border:0;
+       font-family:inherit;margin-bottom:10px}
+  a.btn{background:var(--fg);color:var(--bg)}
+  button{background:#111;color:var(--fg);border:1px solid var(--line)}
+  .warn{border-left:3px solid var(--fg);padding:2px 0 2px 14px;color:var(--dim);font-size:14px}
+  footer{margin-top:48px;color:var(--dim);font-size:13px;text-align:center}
+  footer a{color:var(--dim)}
+</style>
+<main>
+  <img src="logo.png" alt="ONE">
+  <h1>ONE</h1>
+  <p class="sub">Total supply: 1 token. Not one billion. One.</p>
+
+  <p>Most memecoins have a supply of a trillion. This one has a supply of <b>1</b>.
+  It divides into 10<sup>18</sup> pieces, so you buy a fraction of the only ONE that exists.</p>
+
+  <p class="warn">Liquidity is about one dollar. This is a joke that happens to be on-chain,
+  not an investment. Buy a fraction if you think it's funny. Don't buy it if you want money.</p>
+
+  <h2>Contract</h2>
+  <code class="addr" id="a">EQB4OloeRqCu_7kUjRS-_3rizPaEYsFLNhelYT42nxFn6Dcn</code>
+  <button onclick="navigator.clipboard.writeText(document.getElementById('a').textContent).then(()=>{this.textContent='Copied'})">Copy address</button>
+  <a class="btn" href="https://dedust.io/swap/TON/EQB4OloeRqCu_7kUjRS-_3rizPaEYsFLNhelYT42nxFn6Dcn">Buy on DeDust</a>
+
+  <h2>How to buy</h2>
+  <ol>
+    <li>Have a TON wallet with some TON in it (Tonkeeper works).</li>
+    <li>Open the DeDust link above and connect your wallet. If ONE isn't listed, paste the contract address into the token search — it's unverified, so it won't show up on its own.</li>
+    <li><b>Raise the slippage in settings.</b> The pool is tiny, so any buy moves the price a lot and the swap will fail on default settings.</li>
+    <li>Swap. You'll get a very small number. That's the point — the whole supply is one token.</li>
+  </ol>
+
+  <h2>Facts</h2>
+  <ol>
+    <li>Mint is revoked — the admin is the zero address, so no more can ever be created.</li>
+    <li>Liquidity is permanently locked. It can't be pulled.</li>
+    <li>Market cap equals the price of one token, because the supply is one.</li>
+  </ol>
+
+  <footer>
+    <a href="https://tonviewer.com/EQB4OloeRqCu_7kUjRS-_3rizPaEYsFLNhelYT42nxFn6Dcn">Tonviewer</a>
+  </footer>
+</main>
